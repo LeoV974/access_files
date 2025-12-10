@@ -1,4 +1,5 @@
 -Finetune nim is the typical nim finetuner from the pythia basemodel.
+
 -Finetune con is the anchored trainer where we tried to weight decay to the base pythia model and not sending weights to 0
 -Double finetune just does a finetune on a checkpoint already trained
 -Run_gpu is the typical sbatch thing where you do sbatch run_gpu.sh
